@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f93c2;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.logo {
+    max-width: 200px;
+}
+h1 {
+    color: #000000;
+}
+p {
+    color: #000000;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b8b8b8;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 70px
+    ;
+}
+
+
