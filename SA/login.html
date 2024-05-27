@@ -4,23 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!--inclui o JavaScript externo-->
 <script type="text/javascript" src="java.js"></script>
+
+<!--inclui o CSS externo-->
 <link rel="stylesheet" href="login.css">
 <title>login</title>
 
 </head>
 <body>
+
+    <!--contêiner prìncipal para o formulário de login-->
     <div class="login-container"></div>
 
+    <!--formulário de login-->
     <form id="loginForm">
-        
+    
     <form>
+
+       <!--cabeçalho do login-->
         <h1> Login</h1>
+        <!--campod  de entrada para o usuário-->
         <label for="usuario">Usuário:</label>
-        <input type="text" id="usuario" name="usuario"><br><br>
+       <input type="text" id="usuario" name="usuario"><br><br>
+
+       <!--campo de entrada para a senha-->
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha"><br><br>
+
+        <!--botão parafazer login-->
         <button type="button" onclick="fazerLogin()">Entrar</button>
+        <!--botão para cadastrar-se-->
         <button type="button" onclick="fazerLogin()">Cadastrar-se</button>
         
 
