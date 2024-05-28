@@ -6,10 +6,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #2f93c2;
+    background-color: #023859;
 }
 div {
-    background-color: rgb(194, 190, 190);
+    background-color: #f2f2f2;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
