@@ -1,0 +1,8 @@
+.container {
+    display: flex; /* Isso coloca os elementos filhos lado a lado */
+  }
+  
+  .container span {
+    margin-right: 10px; /* Adiciona espaço entre o texto e o botão */
+  }
+  
