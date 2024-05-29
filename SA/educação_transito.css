@@ -1,4 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+      background-image: url('');
+      background-size: cover; /* Para cobrir todo o fundo */
+      background-repeat: no-repeat; /* Para evitar repetição da imagem */
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 100vh;
+  background-color:#F2F2F2
+}
+
 .container {
+
     display: flex; /* Isso coloca os elementos filhos lado a lado */
   }
   
