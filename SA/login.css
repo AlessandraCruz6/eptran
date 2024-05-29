@@ -1,12 +1,15 @@
 body {
     font-family: Arial, sans-serif;
+        background-image: url('../ALESSANDRA\ FUNDO\ DA\ PORRA.PNG');
+        background-size: cover; /* Para cobrir todo o fundo */
+        background-repeat: no-repeat; /* Para evitar repetição da imagem */
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:silver;
+    background-color:#F2F2F2
 }
 form {
     width: 10%;
@@ -40,7 +43,7 @@ display: inline-block;
 border: 1px solid #ccc;
 border-radius: 20px;
 box-sizing: border-box;
-background-color:#4caf50 ;
+background-color:#023859 ;
 
 }
 
