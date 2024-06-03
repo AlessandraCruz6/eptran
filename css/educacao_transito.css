@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url('../imagens/fundo_educacao.PNG');
-  background-size: cover; /* Para cobrir todo o fundo */
+  background-size:contain; /* Para cobrir todo o fundo */
   background-repeat: no-repeat; /* Para evitar repetição da imagem */
-  background-attachment: fixed;
+  background-position: center;
   margin: 0;
   padding: 0;
   display: flex;
@@ -13,8 +13,29 @@ body {
 }
 
 /* Estilo para dispositivos móveis */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 345px) {
   body {
-    background-image: url('imagem_celular.jpg');
+    background-image: url('../imagens/fundo_educacao_celular.PNG');
   }
+}
+
+#seriesiniciais {
+  position: absolute;
+  top: 50px; /* posição inicial no eixo Y */
+  left: 213px; /* posição inicial no eixo X */
+  opacity: 0;
+}
+
+#seriesfinais {
+  position: absolute;
+  top: 310px; /* posição inicial no eixo Y */
+  left: 780px; /* posição inicial no eixo X */
+  opacity: 0;
+}
+
+#seriesmedio {
+  position: absolute;
+  top: 230px; /* posição inicial no eixo Y */
+  left: 1623px; /* posição inicial no eixo X */
+  opacity: 0;
 }
