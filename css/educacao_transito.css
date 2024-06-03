@@ -16,6 +16,27 @@ body {
 @media only screen and (max-width: 345px) {
   body {
     background-image: url('../imagens/fundo_educacao_celular.PNG');
+    
+    #seriesiniciais {
+      position: absolute;
+      top: 50px; /* posição inicial no eixo Y */
+      left: 213px; /* posição inicial no eixo X */
+      opacity: 0;
+    }
+    
+    #seriesfinais {
+      position: absolute;
+      top: 310px; /* posição inicial no eixo Y */
+      left: 780px; /* posição inicial no eixo X */
+      opacity: 0;
+    }
+    
+    #seriesmedio {
+      position: absolute;
+      top: 230px; /* posição inicial no eixo Y */
+      left: 1623px; /* posição inicial no eixo X */
+      opacity: 0;
+    }
   }
 }
 
