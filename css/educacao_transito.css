@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../imagens/fundo_educacao.PNG');
+  background-size: cover; /* Para cobrir todo o fundo */
+  background-repeat: no-repeat; /* Para evitar repetição da imagem */
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color:#F2F2F2
+}
+
+/* Estilo para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url('imagem_celular.jpg');
+  }
+}
