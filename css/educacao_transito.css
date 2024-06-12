@@ -12,6 +12,33 @@ body {
   background-color:#F2F2F2
 }
 
+#seriesiniciais {
+  position: absolute;
+  top: 150px; /* posição inicial no eixo Y */
+  left: 140px; /* posição inicial no eixo X */
+  width: 150px; /* Define a largura do botão */
+  height: 150px;  /* Define a altura do botão */
+  opacity: 0;
+}
+
+#seriesfinais {
+  position: absolute;
+  top: 350px; /* posição inicial no eixo Y */
+  left: 530px; /* posição inicial no eixo X */
+  width: 150px; /* Define a largura do botão */
+  height: 150px;  /* Define a altura do botão */
+  opacity: 0;
+}
+
+#seriesmedio {
+  position: absolute;
+  top: 290px; /* posição inicial no eixo Y */
+  left: 1150px; /* posição inicial no eixo X */
+  width: 150px; /* Define a largura do botão */
+  height: 150px;  /* Define a altura do botão */
+  opacity: 0;
+}
+
 /* Estilo para dispositivos móveis */
 @media only screen and (max-width: 345px) {
   body {
@@ -19,44 +46,30 @@ body {
     
     #seriesiniciais {
       position: absolute;
-      top: 50px; /* posição inicial no eixo Y */
-      left: 213px; /* posição inicial no eixo X */
+      top: 240px; /* posição inicial no eixo Y */
+      left: 70px; /* posição inicial no eixo X */
+      width: 35px; /* Define a largura do botão */
+      height: 35px; /* Define a altura do botão */
       opacity: 0;
     }
     
     #seriesfinais {
       position: absolute;
-      top: 310px; /* posição inicial no eixo Y */
-      left: 780px; /* posição inicial no eixo X */
+      top: 380px; /* posição inicial no eixo Y */
+      left: 222px; /* posição inicial no eixo X */
+      width: 35px; /* Define a largura do botão */
+      height: 35px; /* Define a altura do botão */
       opacity: 0;
     }
     
     #seriesmedio {
       position: absolute;
-      top: 230px; /* posição inicial no eixo Y */
-      left: 1623px; /* posição inicial no eixo X */
+      top: 538px; /* posição inicial no eixo Y */
+      left: 242px; /* posição inicial no eixo X */
+      width: 35px; /* Define a largura do botão */
+      height: 35px; /* Define a altura do botão */
       opacity: 0;
     }
   }
 }
 
-#seriesiniciais {
-  position: absolute;
-  top: 50px; /* posição inicial no eixo Y */
-  left: 213px; /* posição inicial no eixo X */
-  opacity: 0;
-}
-
-#seriesfinais {
-  position: absolute;
-  top: 310px; /* posição inicial no eixo Y */
-  left: 780px; /* posição inicial no eixo X */
-  opacity: 0;
-}
-
-#seriesmedio {
-  position: absolute;
-  top: 230px; /* posição inicial no eixo Y */
-  left: 1623px; /* posição inicial no eixo X */
-  opacity: 0;
-}
