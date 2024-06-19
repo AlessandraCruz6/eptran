@@ -8,27 +8,23 @@ body {
     background-repeat: no-repeat; /* Para evitar repetição da imagem */
 }
 .container {
-    width: 50%;
+    width: 145%;
     margin: auto;
     text-align: center;
-    padding: 50px 0;
-}
-.sla {
-   
-
+    padding: 35px 2;
 }
 h1 {
     color: #000000;
 }
 p {
     color: #000000;
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
 }
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #b8b8b8;
+    background-color: #122ab3;
     color: #000000;
     text-decoration: none;
     border-radius: 5px;

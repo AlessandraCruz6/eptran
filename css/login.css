@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #023859;
+    background-color: #023859;  
 }
 
 div {
@@ -26,23 +26,32 @@ input[type="usuário"] {
     
     width: 90%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 20px;
     box-sizing: border-box;
+    
 }
 
 button{
     width: 90%;
     padding: 10px;
-    margin: 10px 0;
+margin: 10px 0;
+     margin: 20px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 20px;
     box-sizing: border-box;
     background-color:  #4caf50;
 }
+
+
+
+
+
+
+
 
 
 

@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url('../imagens/fundo_educacao.PNG');
-  background-size: cover; /* Para cobrir todo o fundo */
+  background-size:contain; /* Para cobrir todo o fundo */
   background-repeat: no-repeat; /* Para evitar repetição da imagem */
-  background-attachment: fixed;
+  background-position: center;
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,9 +12,64 @@ body {
   background-color:#F2F2F2
 }
 
+#seriesiniciais {
+  position: absolute;
+  top: 150px; /* posição inicial no eixo Y */
+  left: 140px; /* posição inicial no eixo X */
+  width: 150px; /* Define a largura do botão */
+  height: 150px;  /* Define a altura do botão */
+  opacity: 0;
+}
+
+#seriesfinais {
+  position: absolute;
+  top: 350px; /* posição inicial no eixo Y */
+  left: 530px; /* posição inicial no eixo X */
+  width: 150px; /* Define a largura do botão */
+  height: 150px;  /* Define a altura do botão */
+  opacity: 0;
+}
+
+#seriesmedio {
+  position: absolute;
+  top: 290px; /* posição inicial no eixo Y */
+  left: 1150px; /* posição inicial no eixo X */
+  width: 150px; /* Define a largura do botão */
+  height: 150px;  /* Define a altura do botão */
+  opacity: 0;
+}
+
 /* Estilo para dispositivos móveis */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 345px) {
   body {
-    background-image: url('imagem_celular.jpg');
+    background-image: url('../imagens/fundo_educacao_celular.PNG');
+    
+    #seriesiniciais {
+      position: absolute;
+      top: 240px; /* posição inicial no eixo Y */
+      left: 70px; /* posição inicial no eixo X */
+      width: 35px; /* Define a largura do botão */
+      height: 35px; /* Define a altura do botão */
+      opacity: 0;
+    }
+    
+    #seriesfinais {
+      position: absolute;
+      top: 380px; /* posição inicial no eixo Y */
+      left: 222px; /* posição inicial no eixo X */
+      width: 35px; /* Define a largura do botão */
+      height: 35px; /* Define a altura do botão */
+      opacity: 0;
+    }
+    
+    #seriesmedio {
+      position: absolute;
+      top: 538px; /* posição inicial no eixo Y */
+      left: 242px; /* posição inicial no eixo X */
+      width: 35px; /* Define a largura do botão */
+      height: 35px; /* Define a altura do botão */
+      opacity: 0;
+    }
   }
 }
+
