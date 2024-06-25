@@ -29,7 +29,7 @@ input[type="cpf"] {
     box-sizing: border-box;
     
 }
-select[type="idade"], 
+select[type="idade"],
 select[type="sexo"] {
     width: 90%;
     padding: 10px; 
