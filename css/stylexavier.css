@@ -2,34 +2,37 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #a1afb6;
-    background-image: url(../imagens/fundo\ tela\ eptran.png);
-    background-size: cover; /* Para cobrir todo o fundo */
-    background-repeat: no-repeat; /* Para evitar repetição da imagem */
+    background-color:  #023859;
 }
 .container {
-    width: 145%;
+    width: 100%;
     margin: auto;
     text-align: center;
-    padding: 35px 2;
+    padding: 60px;
 }
 h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
     color: #000000;
+    
 }
 p {
+    width: 100%;
+    margin: auto;
+    text-align: center;
     color: #000000;
-    max-width: 800px;
-    margin: 20px auto;
 }
 .button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20;
     background-color: #122ab3;
     color: #000000;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 20px;
-    width: 70px
+    width: 100px
     ;
 }
 
