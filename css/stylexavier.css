@@ -4,36 +4,47 @@ body {
     padding: 0;
     background-color:  #023859;
 }
-.container {
-    width: 100%;
-    margin: auto;
+
+.div{
+    background-color:darkgrey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 140%;
     text-align: center;
-    padding: 60px;
 }
-h1 {
-    width: 100%;
+
+
+
+    
+.container {
+    width: 130%;
     margin: auto;
     text-align: center;
-    padding: 40px;
+   
+}
+
+h1 {
+    width: 120%;
+    margin: auto;
+    text-align: center;
+    padding: 130px; px;
     color: #000000;
     
 }
+
 p {
-    width: 100%;
+    width: 130%;
     margin: auto;
     text-align: center;
     color: #000000;
+  
+
 }
-.button {
-    display: inline-block;
-    padding: 20;
-    background-color: #122ab3;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 20px;
-    margin-top: 20px;
-    width: 100px
-    ;
+
+
+.p1{
+  left:50;
 }
 
 
