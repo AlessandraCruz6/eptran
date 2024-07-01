@@ -1,15 +1,27 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('../imagens/fundo_educacao.PNG');
+  background-image: url('../imagens/eptran.jpg');
   background-size:contain; /* Para cobrir todo o fundo */
   background-repeat: no-repeat; /* Para evitar repetição da imagem */
   background-position: center;
+  width:100%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  background-color:#F2F2F2
+  height:110vh;
+  background-color: #023859;
+}
+
+.container{
+  background-color:darkgrey;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    height: 1%;
+  
 }
 
 #seriesiniciais {
